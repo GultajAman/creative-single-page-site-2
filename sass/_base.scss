@@ -1,0 +1,28 @@
+:root {
+  --primary-red: #f94f4f;
+  --bg-black: #191921;
+  --primary-white: #fff;
+  --text-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px/16px= 62.5%
+}
+
+body {
+  font-size: 18px;
+  background-color: var(--primary-white);
+  font-family: "Commissioner", sans-serif;
+}
